@@ -1,0 +1,162 @@
+.news-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+    ;
+  }
+  .news-container img{
+    max-width: 200px;
+    height: auto;
+  }
+
+  .news-item {
+    width:300px; /* Adjust width for 4 columns */
+    margin: 5px;
+    height: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    display:grid
+    
+  }
+
+  .news-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .news-date {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .news-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .news-content {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  .read-more-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  h2{
+    text-align: center;
+  }
+  .read-more {
+    color: black; /* Set text color */
+    text-decoration: none; /* Remove default underline */
+    text-align: right;
+  }
+  
+  .read-more:hover {
+    text-decoration: none; /* Underline on hover */
+  }
+  
+  .arrow {
+    margin-right: 5px; /* Adjust as needed */
+  }
+  .dots {
+    display: flex;
+    justify-content: center; /* Center the dots horizontally */
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc; /* Default dot color */
+    margin: 0 5px; /* Spacing between dots */
+  }
+  
+  .active {
+    background-color: #007bff; /* Color of the active dot */
+  } body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color:white; /* Dark background color */
+    color: #fff; /* White text color */
+  }
+
+  .container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Space sections evenly */
+    padding: 20px;
+  }
+
+  .section {
+    width: 30%; /* Adjust width as needed */
+  }
+
+  .section h2 {
+    margin-bottom: 10px;
+  }
+
+  .links {
+    list-style: none;
+    padding: 0;
+  }
+
+  .links li {
+    margin-bottom: 5px;
+  }
+
+  .input-container {
+    margin-top: 20px;
+  }
+
+  .input-container input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #444;
+    color: #fff;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #666;
+  }header {
+    background: #111;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header .coone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  header a:hover {
+    background: #333;
+    border-radius: 5px;
+  }
+  
+  

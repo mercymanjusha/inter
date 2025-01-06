@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    width: 150px; /* Adjust width as needed */
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    overflow: hidden; /* Hide overflow of images */
+}
+
+.team-member img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image fills the container */
+    border-radius: 50%;
+}
+
+.content {
+    width: 80%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.keywords {
+    margin-top: 40px;
+    width: 80%;
+}
+
+.keywords h2 {
+    margin-bottom: 10px;
+}
+
+.keywords input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.keywords ul {
+    list-style: none;
+    padding: 0;
+}
+
+.keywords li {
+    margin-bottom: 5px;
+}
+header {
+    background: #111;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header .coone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  header a:hover {
+    background: #333;
+    border-radius: 5px;
+  }
+  

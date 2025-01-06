@@ -1,0 +1,271 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+}
+
+.hero {
+  background-color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.countdown div {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.logos img {
+  width: 100px;
+  margin: 0 10px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.hero {
+  position: relative; /* To position the video as a background */
+  overflow: hidden; /* To hide video overflow */
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* To make the video fill the container */
+  z-index: -1; /* To place the video behind other content */
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.overlay-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.overlay-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}.play-button {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /* Ensure play button is on top */
+}
+
+.play-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.play-button svg {
+  width: 50px;
+  height: 100px;
+}
+video::-webkit-media-controls {
+    display: none !important;
+}
+.logo-container {
+  display: flex;
+  justify-content: center; /* Center the logos horizontally */
+}
+
+.logo-container svg {
+  width: 50px; /* Adjust the width as needed */
+  margin: 0 10px; /* Spacing between logos */
+}
+.logos{
+  Width:944px;
+Height:66px;
+Top:930px;
+Left:243px;
+text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 944px; /* Adjust width as needed */
+  margin: 20px auto;
+  display: flex; /* Use flexbox for two columns */
+  justify-content: space-between; /* Space columns evenly */
+}
+
+.column {
+  width: 45%; /* Adjust column width as needed */
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  margin-left: 20px;
+}
+h1{
+  text-align: center;
+}
+header {
+  background: #111;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .coone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+header a:hover {
+  background: #333;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background:black;
+  color: #fff;
+  padding: 5rem 1rem;
+  text-align: center;
+}
